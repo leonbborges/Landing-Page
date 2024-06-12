@@ -8,6 +8,7 @@ font-family:'Open Sans', sans-serif;
 */
 html{
   font-size: 62.5%;
+  scroll-behavior:smooth ;
 }
 body{
   font-family:'Open Sans', sans-serif;
@@ -25,7 +26,10 @@ h1{
   text-transform: uppercase;
 }
 h2{
-  font-size: 5.5rem;
+  font-size: 6rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1.2;
 }
 h3{
   font-size: 5rem;
@@ -42,4 +46,37 @@ h6{
 
 a{
   text-decoration: none;
+}
+
+p{
+  margin-bottom: 2rem;
+}
+
+.responsive-table{
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+table{
+  min-width: 36rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table caption{
+  font-style: italic;
+  font-size: 1.6rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+table td, table th{
+  white-space: nowrap;
+  padding: 1em;
+  text-align: left;
+  border: 0.1rem solid var(--light-gray-color);
+}
+
+tfoot td, table th{
+  background: var(--light-gray-color);
 }
