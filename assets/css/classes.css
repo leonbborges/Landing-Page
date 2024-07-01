@@ -21,5 +21,10 @@
 }
 
 .menu-spacing{
-  height: 6.5rem;
+  height: 65px;
+}
+
+body .full-width{
+  width: 100%;
+  flex: 1 1 100%;
 }
